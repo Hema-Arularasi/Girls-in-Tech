@@ -1,0 +1,199 @@
+/* Reset some default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-vector/waste-sorting-isometric-composition_1284-24259.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust the color and opacity as needed */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    z-index: -1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #10c05c;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.intro {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+
+.intro h2 {
+    color: #50ba6c;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* ... (previous styles) ... */
+
+.plastic-images {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.plastic-images h2 {
+    color: #03642a;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.plastic-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.plastic-item {
+    text-align: center;
+}
+
+.plastic-item img {
+    max-width: 100%;
+    border: 2px solid #00ff84dc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.plastic-item p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.upload-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.upload-button, .scan-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.upload-button:hover, .scan-button:hover {
+    background-color: #0056b3;
+}
+
+.scan-process {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #007BFF;
+    transition: width 0.5s ease;
+}
+
+.result {
+    font-size: 20px;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 10px; /* Adjust the value as needed */
+    padding-bottom: 50px; /* Adjust the value as needed */
+  }
+  
+/* Add this to your styles.css file */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #129af4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0d91e9;
+}
+
+
+/* Rest of your styles... */
+
+
+
